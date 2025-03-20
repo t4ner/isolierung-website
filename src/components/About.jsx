@@ -90,7 +90,7 @@ const About = () => {
               <div className="flex flex-col items-start gap-6 md:flex-row">
                 <figure className="flex-shrink-0 w-20 h-20 p-5 overflow-hidden border border-gray-200 rounded-full shadow-xl md:h-28 md:w-28">
                   <img
-                    src="logo/logo.png"
+                    src="logo/logo2.png"
                     alt="G&G Fugentechnik Recycling Prozess"
                     className="object-cover w-full h-full"
                     loading="lazy"
