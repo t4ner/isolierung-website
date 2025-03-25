@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import informationImage from "/information/information.jpg";
 const Information = () => {
   return (
-    <section className="relative py-20 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
+    <section className="relative py-10 lg:py-20 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 bg-[url('/texture-pattern.png')] opacity-5"></div>
       <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-blue-100 mix-blend-multiply filter blur-3xl opacity-30"></div>
@@ -25,7 +25,7 @@ const Information = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8 lg:mb-16">
           {[
             {
               title: "Wärmeisolierung",
@@ -123,9 +123,9 @@ const Information = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className={`rounded-xl ${service.gradient} p-6 h-full shadow-sm hover:shadow-md transition-shadow`}
+              className={`rounded-xl ${service.gradient} p-5 h-full shadow-sm hover:shadow-md transition-shadow`}
             >
-              <div className="text-4xl mb-4">{service.icon}</div>
+              <div className="text-2xl lg:text-4xl mb-4">{service.icon}</div>
               <h3 className="text-lg lg:text-xl font-semibold mb-3">{service.title}</h3>
               <p className="lg:text-base text-sm text-gray-700">{service.description}</p>
             </motion.div>
@@ -138,8 +138,8 @@ const Information = () => {
           transition={{ duration: 0.8 }}
           className=" rounded-2xl p-5 md:p-12 shadow-xl"
         >
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+          <div className="flex flex-col lg:flex-row items-center">
+            <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
               <h3 className="text-lg lg:text-3xl font-semibold lg:font-bold text-gray-800 mb-4">
                 Unsere Expertise für Ihren Erfolg
               </h3>
