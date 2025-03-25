@@ -31,7 +31,7 @@ const Information = () => {
               title: "Wärmeisolierung",
               icon: (
                 <svg
-                  className="w-10 h-10 text-black"
+                  className="w-8 h-8 lg:w-10 lg:h-10 text-black"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -54,7 +54,7 @@ const Information = () => {
               title: "Kälteisolierung",
               icon: (
                 <svg
-                  className="w-10 h-10 text-black"
+                  className="w-8 h-8 lg:w-10 lg:h-10 text-black"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -76,7 +76,7 @@ const Information = () => {
               title: "Schallschutz",
               icon: (
                 <svg
-                  className="w-10 h-10 text-black"
+                  className="w-8 h-8 lg:w-10 lg:h-10 text-black"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -99,7 +99,7 @@ const Information = () => {
               title: "Brandschutz",
               icon: (
                 <svg
-                  className="w-10 h-10 text-black"
+                  className="w-8 h-8 lg:w-10 lg:h-10 text-black"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
