@@ -20,7 +20,7 @@ const ServiceSection = ({
     <div
       ref={ref}
       id={id}
-      className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center`}
+      className={`grid grid-cols-1 lg:grid-cols-2  lg:gap-24 items-center`}
     >
       <motion.div
         initial={{ opacity: 0, x: reverse ? 100 : -100 }}
@@ -32,26 +32,26 @@ const ServiceSection = ({
         transition={{ duration: 0.8, ease: "easeOut" }}
         className={`${reverse ? "lg:order-2" : "lg:order-1"}`}
       >
-        <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-300 mb-3">
+        <h4 className="text-xs lg:text-sm font-semibold uppercase tracking-wider text-gray-300 mb-3">
           {title}
         </h4>
-        <h1 className="text-3xl font-bold mb-6 text-gray-900 leading-tight">
+        <h1 className="text-lg lg:text-3xl font-bold mb-6 text-gray-900 leading-tight">
           {subtitle}
         </h1>
 
-        <p className="text-gray-600 mb-8  leading-relaxed max-w-2xl">
+        <p className="text-gray-600 mb-8 text-sm lg:text-base leading-relaxed max-w-2xl">
           {description}
         </p>
 
         {listItems && (
-          <ul className="text-gray-600 mb-8 leading-relaxed max-w-2xl list-disc list-inside">
+          <ul className="text-gray-600 mb-8 text-sm lg:text-base leading-relaxed max-w-2xl list-disc list-inside">
             {listItems.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
           </ul>
         )}
 
-        <p className="text-gray-600 mb-8  leading-relaxed max-w-2xl">
+        <p className="text-gray-600 mb-8 text-sm lg:text-base leading-relaxed max-w-2xl">
           {subdescription}
         </p>
       </motion.div>
@@ -70,7 +70,7 @@ const ServiceSection = ({
           <img
             src={imageUrl}
             alt={title}
-            className="w-full h-[400px] lg:h-[500px] object-cover"
+            className="w-full h-[300px] lg:h-[500px] object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/40 via-transparent to-transparent"></div>
         </div>
@@ -152,7 +152,7 @@ const ServicesDetail = () => {
         <div className="absolute bottom-0 right-0 w-1/2 h-1/2 rounded-full blur-3xl opacity-70 translate-x-1/4 translate-y-1/4"></div>
       </div>
 
-      <div className="container mx-auto px-6 xl:px-0 pt-24  relative z-10 space-y-24">
+      <div className="container mx-auto px-3 xl:px-0 pt-10 lg:pt-24  relative z-10 space-y-10 lg:space-y-24">
         {services.map((service, index) => (
           <ServiceSection
             key={index}

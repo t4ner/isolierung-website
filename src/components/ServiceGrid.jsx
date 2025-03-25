@@ -44,7 +44,7 @@ const ServiceGrid = () => {
   return (
     <section className="w-full bg-white -mt-28">
       <div className="container mx-auto max-w-7xl">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2  lg:grid-cols-4 gap-2 lg:gap-8 p-2 lg:p-0">
           {services.map((service) => (
             <div
               key={service.id}
@@ -58,7 +58,7 @@ const ServiceGrid = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/20">
-                  <h3 className="text-2xl mt-2 font-semibold text-white uppercase tracking-wider px-4 text-center">
+                  <h3 className="lg:text-2xl mt-2 font-semibold text-white uppercase tracking-wider px-4 text-center">
                     {service.title}
                   </h3>
                 </div>
