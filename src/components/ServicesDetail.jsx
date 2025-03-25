@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
 
 const ServiceSection = ({
   title,
@@ -11,15 +13,23 @@ const ServiceSection = ({
   reverse,
   id,
 }) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
+
   return (
     <div
+      ref={ref}
       id={id}
-      className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center `}
+      className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center`}
     >
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
+        initial={{ opacity: 0, x: reverse ? 100 : -100 }}
+        animate={
+          isInView
+            ? { opacity: 1, x: 0 }
+            : { opacity: 0, x: reverse ? 100 : -100 }
+        }
+        transition={{ duration: 0.8, ease: "easeOut" }}
         className={`${reverse ? "lg:order-2" : "lg:order-1"}`}
       >
         <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-300 mb-3">
@@ -47,9 +57,13 @@ const ServiceSection = ({
       </motion.div>
 
       <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8, delay: 0.2 }}
+        initial={{ opacity: 0, x: reverse ? -100 : 100 }}
+        animate={
+          isInView
+            ? { opacity: 1, x: 0 }
+            : { opacity: 0, x: reverse ? -100 : 100 }
+        }
+        transition={{ duration: 0.8, ease: "easeOut" }}
         className={`${reverse ? "lg:order-1" : "lg:order-2"}`}
       >
         <div className="relative rounded-2xl overflow-hidden shadow-2xl">

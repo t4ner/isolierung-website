@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
+import { motion } from "framer-motion";
 import "react-toastify/dist/ReactToastify.css";
 
 const ContactForm = () => {
@@ -32,8 +33,14 @@ const ContactForm = () => {
     <div className="relative mt-20 mb-24 px-4 md:px-6 container mx-auto">
       <ToastContainer position="bottom-right" />
 
-      <div className="mb-20 text-center relative">
-        <span className="inline-block px-4 py-2 rounded-full  bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] text-black text-sm font-medium mb-4 animate-fadeIn">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-150px" }}
+        transition={{ duration: 0.6 }}
+        className="mb-20 text-center relative"
+      >
+        <span className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] text-black text-sm font-medium mb-4">
           Kontakt
         </span>
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
@@ -44,11 +51,17 @@ const ContactForm = () => {
           Schreiben Sie uns gerne eine Nachricht oder rufen Sie uns an! Wir
           freuen uns darauf, Ihnen weiterzuhelfen.
         </p>
-      </div>
+      </motion.div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
         {/* Contact Form */}
-        <div className="order-2 lg:order-1 flex">
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="order-2 lg:order-1 flex"
+        >
           <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl p-8 transform transition-all duration-300 hover:scale-[1.02] w-full flex flex-col">
             <form
               ref={form}
@@ -151,11 +164,17 @@ const ContactForm = () => {
               </div>
             </form>
           </div>
-        </div>
+        </motion.div>
 
         {/* Contact Information */}
-        <div className="order-1 lg:order-2 flex">
-          <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden transform transition-all duration-300  hover:scale-[1.02] w-full flex flex-col">
+        <motion.div
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="order-1 lg:order-2 flex"
+        >
+          <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden transform transition-all duration-300 hover:scale-[1.02] w-full flex flex-col">
             <div className="h-[400px] w-full relative group">
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20 group-hover:opacity-0 transition-opacity duration-300"></div>
               <iframe
@@ -257,7 +276,7 @@ const ContactForm = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
