@@ -19,7 +19,7 @@ const Information = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
             Experten für Isoliertechnik
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-[#acdaf1] mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Maßgeschneiderte und effiziente Lösungen für Ihre Anforderungen
           </p>
@@ -45,8 +45,7 @@ const Information = () => {
                   />
                 </svg>
               ),
-              gradient:
-                "bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9]",
+              gradient: "bg-[#eff8fd]",
 
               description:
                 "Effektive Lösungen zur Reduzierung von Wärmeverlusten und Energieeinsparung.",
@@ -69,9 +68,7 @@ const Information = () => {
                   />
                 </svg>
               ),
-              gradient:
-                "bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9]",
-
+              gradient: "bg-[#eff8fd]",
               description:
                 "Optimaler Schutz für kältetechnische Anlagen und Rohrleitungen.",
             },
@@ -93,8 +90,7 @@ const Information = () => {
                   />
                 </svg>
               ),
-              gradient:
-                "bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9]",
+              gradient: "bg-[#eff8fd]",
 
               description:
                 "Effektive Lösungen zur Reduzierung von Lärm und Vibrationen.",
@@ -117,9 +113,7 @@ const Information = () => {
                   />
                 </svg>
               ),
-              gradient:
-                "bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9]",
-
+              gradient: "bg-[#eff8fd]",
               description:
                 "Zuverlässige Systeme zum Schutz von Menschen und Anlagen.",
             },

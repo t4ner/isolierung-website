@@ -106,12 +106,12 @@ const Footer = memo(() => {
             <a
               key={item.id}
               href={item.href}
-              className="flex items-center gap-4 md:gap-6 group p-4 md:p-5 lg:p-6 rounded-3xl bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] transition-all duration-500 hover:shadow-lg hover:shadow-[#02C5DF]/5 hover:-translate-y-1"
+              className="flex items-center gap-4 md:gap-6 group p-4 md:p-5 lg:p-6 rounded-3xl bg-[#eff8fd]  transition-all duration-500 hover:shadow-lg hover:shadow-[#02C5DF]/5 hover:-translate-y-1"
               target={item.target}
               rel={item.target === "_blank" ? "noopener noreferrer" : undefined}
               aria-label={item.ariaLabel}
             >
-              <div className="bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] p-2 md:p-3 lg:p-4 rounded-2xl text-black text-lg md:text-xl group-hover:scale-110 transition-transform duration-300 shadow-md shadow-[#02C5DF]/20">
+              <div className="bg-[#eff8fd]  p-2 md:p-3 lg:p-4 rounded-2xl text-black text-lg md:text-xl group-hover:scale-110 transition-transform duration-300 shadow-md shadow-[#02C5DF]/20">
                 <item.icon />
               </div>
               <span className="text-[#06234B] text-sm md:text-base md:font-medium">
@@ -124,8 +124,6 @@ const Footer = memo(() => {
         {/* Bottom Section */}
         <div className="flex flex-col space-y-5">
           <div className="flex flex-col items-center gap-8">
-         
-
             <nav
               className="flex flex-wrap justify-center gap-4"
               aria-label="Footer navigation"

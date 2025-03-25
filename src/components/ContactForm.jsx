@@ -40,13 +40,13 @@ const ContactForm = () => {
         transition={{ duration: 0.6 }}
         className="mb-20 text-center relative"
       >
-        <span className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] text-black text-sm font-medium mb-4">
+        <span className="inline-block px-4 py-2 rounded-full bg-[#acdaf1] text-white text-sm font-medium mb-4">
           Kontakt
         </span>
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
           Haben Sie Fragen?
         </h2>
-        <div className="w-24 h-1 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] mx-auto mb-6"></div>
+        <div className="w-24 h-1 bg-[#acdaf1] mx-auto mb-6"></div>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Schreiben Sie uns gerne eine Nachricht oder rufen Sie uns an! Wir
           freuen uns darauf, Ihnen weiterzuhelfen.
@@ -143,7 +143,7 @@ const ContactForm = () => {
               <div>
                 <button
                   type="submit"
-                  className="group ml-auto w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] font-medium rounded-xl transition-all duration-300 transform hover:scale-105  flex items-center justify-center space-x-2 hover:translate-y-[-1px]"
+                  className="group ml-auto w-full sm:w-auto px-8 py-4 bg-[#eff8fd]  font-medium rounded-xl transition-all duration-300 transform hover:scale-105  flex items-center justify-center space-x-2 hover:translate-y-[-1px]"
                 >
                   <span>Nachricht senden</span>
                   <svg
@@ -189,7 +189,7 @@ const ContactForm = () => {
 
             <div className="p-8 space-y-8 bg-gradient-to-br from-white/80 to-green-50/80 flex-grow">
               <div className="flex items-start transform transition-all duration-300 hover:translate-x-2 group">
-                <div className="p-3 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] rounded-xl group-hover:scale-110 transition-transform">
+                <div className="p-3 bg-[#eff8fd] rounded-xl group-hover:scale-110 transition-transform">
                   <svg
                     className="w-6 h-6 text-black"
                     xmlns="http://www.w3.org/2000/svg"
@@ -222,7 +222,7 @@ const ContactForm = () => {
               </div>
 
               <div className="flex items-start transform transition-all duration-300 hover:translate-x-2 group">
-                <div className="p-3 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] rounded-xl group-hover:scale-110 transition-transform">
+                <div className="p-3 bg-[#eff8fd] rounded-xl group-hover:scale-110 transition-transform">
                   <svg
                     className="w-6 h-6 text-black"
                     xmlns="http://www.w3.org/2000/svg"
@@ -249,7 +249,7 @@ const ContactForm = () => {
               </div>
 
               <div className="flex items-start transform transition-all duration-300 hover:translate-x-2 group">
-                <div className="p-3 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] rounded-xl group-hover:scale-110 transition-transform">
+                <div className="p-3 bg-[#eff8fd] rounded-xl group-hover:scale-110 transition-transform">
                   <svg
                     className="w-6 h-6 text-black"
                     xmlns="http://www.w3.org/2000/svg"

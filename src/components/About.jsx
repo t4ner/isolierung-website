@@ -11,8 +11,6 @@ const About = () => {
     },
   };
 
- 
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -35,7 +33,7 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
             Unser Unternehmen
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-[#acdaf1]  mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Als inhabergeführtes Unternehmen sind wir stolz auf unser
             engagiertes Team, das unsere Marktposition kontinuierlich stärkt.
@@ -91,9 +89,9 @@ const About = () => {
                     Unser Unternehmen
                   </h2>
                   <p className="text-sm leading-relaxed text-gray-600 md:text-base">
-                   Unsere verschiedenen Geschäftsfelder arbeiten eng
-                    zusammen, um maßgeschneiderte Lösungen zu entwickeln und
-                    Ihnen die bestmöglichen Ergebnisse zu liefern.
+                    Unsere verschiedenen Geschäftsfelder arbeiten eng zusammen,
+                    um maßgeschneiderte Lösungen zu entwickeln und Ihnen die
+                    bestmöglichen Ergebnisse zu liefern.
                   </p>
                 </article>
               </div>
@@ -112,7 +110,7 @@ const About = () => {
                 ].map((img, index) => (
                   <figure
                     key={index}
-                    className="rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 h-64 transform hover:scale-[1.02]"
+                    className="rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 h-72 transform hover:scale-[1.02]"
                   >
                     <img
                       src={img.src}
