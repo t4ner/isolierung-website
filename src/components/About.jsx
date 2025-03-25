@@ -97,7 +97,7 @@ const About = () => {
                     decoding="async"
                   />
                 </figure>
-                <article className="bg-gradient-to-r from-green-50 to-blue-50 flex-grow p-4 transition-shadow duration-300 shadow-xl md:p-6 rounded-3xl hover:shadow-2xl">
+                <article className="d6ecf7 flex-grow p-4 transition-shadow duration-300 shadow-xl md:p-6 rounded-3xl hover:shadow-2xl">
                   <h2 className="mb-3 text-2xl md:text-3xl font-bold text-gray-800">
                     Unser Unternehmen
                   </h2>
@@ -147,7 +147,7 @@ const About = () => {
           viewport={{ once: true }}
           className="mt-10"
         >
-          <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-3xl shadow-xl p-8 md:p-12">
+          <div className="bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] rounded-3xl shadow-xl p-8 md:p-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
               Unser Unternehmen
             </h2>
@@ -175,7 +175,7 @@ const About = () => {
           viewport={{ once: true }}
           className="mt-10"
         >
-          <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-3xl shadow-xl p-8 md:p-12">
+          <div className="bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] rounded-3xl shadow-xl p-8 md:p-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
               Unsere Lösungen im Bereich Isoliertechnik
             </h2>

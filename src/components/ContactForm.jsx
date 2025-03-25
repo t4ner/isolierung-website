@@ -33,7 +33,7 @@ const ContactForm = () => {
       <ToastContainer position="bottom-right" />
 
       <div className="mb-20 text-center relative">
-        <span className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-green-100 to-emerald-100 text-green-800 text-sm font-medium mb-4 animate-fadeIn">
+        <span className="inline-block px-4 py-2 rounded-full  bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] text-black text-sm font-medium mb-4 animate-fadeIn">
           Kontakt
         </span>
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
@@ -49,7 +49,7 @@ const ContactForm = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
         {/* Contact Form */}
         <div className="order-2 lg:order-1 flex">
-          <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl p-8 transform transition-all duration-300 hover:shadow-[0_20px_50px_rgba(16,_185,_129,_0.25)] hover:scale-[1.02] w-full flex flex-col">
+          <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl p-8 transform transition-all duration-300 hover:scale-[1.02] w-full flex flex-col">
             <form
               ref={form}
               onSubmit={sendEmail}
@@ -130,7 +130,7 @@ const ContactForm = () => {
               <div>
                 <button
                   type="submit"
-                  className="group ml-auto w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-green-100 to-blue-50 font-medium rounded-xl transition-all duration-300 transform hover:scale-105  flex items-center justify-center space-x-2 hover:translate-y-[-1px]"
+                  className="group ml-auto w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] font-medium rounded-xl transition-all duration-300 transform hover:scale-105  flex items-center justify-center space-x-2 hover:translate-y-[-1px]"
                 >
                   <span>Nachricht senden</span>
                   <svg
@@ -155,7 +155,7 @@ const ContactForm = () => {
 
         {/* Contact Information */}
         <div className="order-1 lg:order-2 flex">
-          <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden transform transition-all duration-300 hover:shadow-[0_20px_50px_rgba(16,_185,_129,_0.25)] hover:scale-[1.02] w-full flex flex-col">
+          <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden transform transition-all duration-300  hover:scale-[1.02] w-full flex flex-col">
             <div className="h-[400px] w-full relative group">
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20 group-hover:opacity-0 transition-opacity duration-300"></div>
               <iframe
@@ -170,9 +170,9 @@ const ContactForm = () => {
 
             <div className="p-8 space-y-8 bg-gradient-to-br from-white/80 to-green-50/80 flex-grow">
               <div className="flex items-start transform transition-all duration-300 hover:translate-x-2 group">
-                <div className="p-3 bg-gradient-to-r from-green-50 to-blue-50 rounded-xl group-hover:scale-110 transition-transform">
+                <div className="p-3 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] rounded-xl group-hover:scale-110 transition-transform">
                   <svg
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-black"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -203,9 +203,9 @@ const ContactForm = () => {
               </div>
 
               <div className="flex items-start transform transition-all duration-300 hover:translate-x-2 group">
-                <div className="p-3 bg-gradient-to-r from-green-50 to-blue-50 rounded-xl group-hover:scale-110 transition-transform">
+                <div className="p-3 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] rounded-xl group-hover:scale-110 transition-transform">
                   <svg
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-black"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -230,9 +230,9 @@ const ContactForm = () => {
               </div>
 
               <div className="flex items-start transform transition-all duration-300 hover:translate-x-2 group">
-                <div className="p-3 bg-gradient-to-r from-green-50 to-blue-50  rounded-xl group-hover:scale-110 transition-transform">
+                <div className="p-3 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] rounded-xl group-hover:scale-110 transition-transform">
                   <svg
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-black"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"

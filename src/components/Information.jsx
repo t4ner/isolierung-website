@@ -45,8 +45,9 @@ const Information = () => {
                   />
                 </svg>
               ),
-              gradient: "bg-gradient-to-r from-green-50 to-blue-50",
-              border: "border-green-200",
+              gradient:
+                "bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9]",
+
               description:
                 "Effektive Lösungen zur Reduzierung von Wärmeverlusten und Energieeinsparung.",
             },
@@ -68,8 +69,9 @@ const Information = () => {
                   />
                 </svg>
               ),
-              gradient: "bg-gradient-to-br from-green-50 to-blue-50",
-              border: "border-green-200",
+              gradient:
+                "bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9]",
+
               description:
                 "Optimaler Schutz für kältetechnische Anlagen und Rohrleitungen.",
             },
@@ -91,8 +93,9 @@ const Information = () => {
                   />
                 </svg>
               ),
-              gradient: "bg-gradient-to-bl from-green-50 to-blue-50",
-              border: "border-green-200",
+              gradient:
+                "bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9]",
+
               description:
                 "Effektive Lösungen zur Reduzierung von Lärm und Vibrationen.",
             },
@@ -114,8 +117,9 @@ const Information = () => {
                   />
                 </svg>
               ),
-              gradient: "bg-gradient-to-l from-green-50 to-blue-50",
-              border: "border-green-200",
+              gradient:
+                "bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9]",
+
               description:
                 "Zuverlässige Systeme zum Schutz von Menschen und Anlagen.",
             },
@@ -125,7 +129,7 @@ const Information = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className={`rounded-xl ${service.gradient} border ${service.border} p-6 h-full shadow-sm hover:shadow-md transition-shadow`}
+              className={`rounded-xl ${service.gradient} p-6 h-full shadow-sm hover:shadow-md transition-shadow`}
             >
               <div className="text-4xl mb-4">{service.icon}</div>
               <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
@@ -138,7 +142,7 @@ const Information = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
-          className="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8 md:p-12 shadow-xl"
+          className="bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] rounded-2xl p-8 md:p-12 shadow-xl"
         >
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
@@ -184,7 +188,6 @@ const Information = () => {
                   className="absolute inset-0 w-full h-full object-cover"
                   src={informationImage}
                   alt="Professionelle Isolierarbeit"
-                 
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
                   <div className="bg-white/90 backdrop-blur-sm p-4 rounded-lg">
