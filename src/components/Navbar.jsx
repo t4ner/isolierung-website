@@ -188,7 +188,7 @@ const Navbar = () => {
                   className="block text-2xl text-black/80 hover:text-black font-medium transition-colors duration-300"
                   onClick={() => setIsOpen(false)}
                 >
-                  Über uns
+                  Zertifikate
                 </Link>
               </div>
 
