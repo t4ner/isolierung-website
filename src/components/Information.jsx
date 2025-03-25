@@ -17,9 +17,9 @@ const Information = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Experten für <span className="text-green-600">Isoliertechnik</span>
+            Experten für Isoliertechnik
           </h2>
-          <div className="w-24 h-1 bg-green-500 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Maßgeschneiderte und effiziente Lösungen für Ihre Anforderungen
           </p>
@@ -31,7 +31,7 @@ const Information = () => {
               title: "Wärmeisolierung",
               icon: (
                 <svg
-                  className="w-10 h-10 text-green-600"
+                  className="w-10 h-10 text-black"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -55,7 +55,7 @@ const Information = () => {
               title: "Kälteisolierung",
               icon: (
                 <svg
-                  className="w-10 h-10 text-green-600"
+                  className="w-10 h-10 text-black"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -79,7 +79,7 @@ const Information = () => {
               title: "Schallschutz",
               icon: (
                 <svg
-                  className="w-10 h-10 text-green-600"
+                  className="w-10 h-10 text-black"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -103,7 +103,7 @@ const Information = () => {
               title: "Brandschutz",
               icon: (
                 <svg
-                  className="w-10 h-10 text-green-600"
+                  className="w-10 h-10 text-black"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -142,14 +142,14 @@ const Information = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
-          className="bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] rounded-2xl p-8 md:p-12 shadow-xl"
+          className=" rounded-2xl p-8 md:p-12 shadow-xl"
         >
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
               <h3 className="text-3xl font-bold text-gray-800 mb-4">
                 Unsere Expertise für Ihren Erfolg
               </h3>
-              <div className="h-1 w-20 bg-green-500 mb-6"></div>
+              <div className="h-1 w-20 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] mb-6"></div>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Verlassen Sie sich auf unsere jahrelange Erfahrung und unser
                 Engagement, um Ihnen die besten Lösungen für Ihre
@@ -166,7 +166,7 @@ const Information = () => {
                 ].map((item, index) => (
                   <li key={index} className="flex items-center">
                     <svg
-                      className="w-5 h-5 text-green-500 mr-2"
+                      className="w-5 h-5  mr-2"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >

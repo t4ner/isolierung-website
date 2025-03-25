@@ -22,7 +22,7 @@ const ServiceSection = ({
         transition={{ duration: 0.6 }}
         className={`${reverse ? "lg:order-2" : "lg:order-1"}`}
       >
-        <h4 className="text-sm font-semibold uppercase tracking-wider text-green-400 mb-3">
+        <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-300 mb-3">
           {title}
         </h4>
         <h1 className="text-3xl font-bold mb-6 text-gray-900 leading-tight">

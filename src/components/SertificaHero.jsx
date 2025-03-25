@@ -7,7 +7,7 @@ const SertificaHero = () => {
       <div className="relative">
         {/* Hero background with sharp edges using clip-path */}
         <div
-          className="relative bg-gradient-to-r from-green-400 to-blue-50 min-h-[60vh] overflow-hidden"
+          className="relative  bg-gradient-to-r from-[#acdaf1] to-[#f6d8d8] min-h-[60vh] overflow-hidden"
           style={{
             clipPath:
               "polygon(0 0, 100% 0, 100% 85%, 75% 100%, 25% 90%, 0 100%)",

@@ -32,7 +32,7 @@ const ServiceGrid = () => {
     const element = document.getElementById(sectionId);
     if (element) {
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - 100;
+      const offsetPosition = elementPosition + window.pageYOffset - 175;
 
       window.scrollTo({
         top: offsetPosition,
@@ -58,7 +58,7 @@ const ServiceGrid = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/20">
-                  <h3 className="text-2xl font-bold text-white uppercase tracking-wider px-4 text-center">
+                  <h3 className="text-2xl mt-2 font-semibold text-white uppercase tracking-wider px-4 text-center">
                     {service.title}
                   </h3>
                 </div>

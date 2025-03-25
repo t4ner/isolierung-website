@@ -37,9 +37,9 @@ const ContactForm = () => {
           Kontakt
         </span>
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-          Haben Sie <span className="text-green-600">Fragen?</span>
+          Haben Sie Fragen?
         </h2>
-        <div className="w-24 h-1 bg-green-500 mx-auto mb-6"></div>
+        <div className="w-24 h-1 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] mx-auto mb-6"></div>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Schreiben Sie uns gerne eine Nachricht oder rufen Sie uns an! Wir
           freuen uns darauf, Ihnen weiterzuhelfen.

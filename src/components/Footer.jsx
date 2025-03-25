@@ -92,7 +92,7 @@ const FOOTER_LINKS = [
 const Footer = memo(() => {
   return (
     <footer
-      className="relative bg-gradient-to-b from-white to-[#f8fbfe] border-t-2 border-green-100 mt-20"
+      className="relative bg-gradient-to-b from-white to-[#f8fbfe] border-t-2 border-blue-50 mt-20"
       role="contentinfo"
       aria-label={`${COMPANY_INFO.name} footer area`}
     >
@@ -134,7 +134,7 @@ const Footer = memo(() => {
                 <Link
                   key={link.id}
                   to={link.to}
-                  className={`text-[#06234B]/60 hover:text-green-400 transition-all duration-300 text-xs md:text-sm whitespace-nowrap flex items-center gap-1 group ${
+                  className={`text-[#06234B]/60   transition-all duration-300 text-xs md:text-sm whitespace-nowrap flex items-center gap-1 group ${
                     link.mobileHidden ? "hidden md:flex" : "flex"
                   }`}
                   aria-label={link.ariaLabel}
@@ -153,7 +153,7 @@ const Footer = memo(() => {
               href="https://macaree.de"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black hover:text-green-400 cursor-pointer hover:underline transition-all duration-300"
+              className="text-black  cursor-pointer hover:underline transition-all duration-300"
             >
               Macaree
             </a>

@@ -11,18 +11,7 @@ const About = () => {
     },
   };
 
-  const serviceVariants = {
-    hidden: { opacity: 0, x: -20 },
-    visible: (i) => ({
-      opacity: 1,
-      x: 0,
-      transition: {
-        delay: i * 0.1,
-        duration: 0.5,
-        ease: "easeOut",
-      },
-    }),
-  };
+ 
 
   return (
     <motion.div
@@ -44,9 +33,9 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Unser <span className="text-green-600">Unternehmen</span>
+            Unser Unternehmen
           </h2>
-          <div className="w-24 h-1 bg-green-500 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Als inhabergeführtes Unternehmen sind wir stolz auf unser
             engagiertes Team, das unsere Marktposition kontinuierlich stärkt.
@@ -147,7 +136,7 @@ const About = () => {
           viewport={{ once: true }}
           className="mt-10"
         >
-          <div className="bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] rounded-3xl shadow-xl p-8 md:p-12">
+          <div className=" rounded-3xl shadow-xl p-8 md:p-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
               Unser Unternehmen
             </h2>
@@ -175,7 +164,7 @@ const About = () => {
           viewport={{ once: true }}
           className="mt-10"
         >
-          <div className="bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] rounded-3xl shadow-xl p-8 md:p-12">
+          <div className=" rounded-3xl shadow-xl p-8 md:p-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
               Unsere Lösungen im Bereich Isoliertechnik
             </h2>
