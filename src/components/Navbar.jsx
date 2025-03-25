@@ -31,7 +31,7 @@ const Navbar = () => {
               <img
                 src="logo/logo.png"
                 alt="G&G Fugentechnik Recycling Prozess"
-                className="w-auto h-24"
+                className="w-auto h-16 lg:h-24"
               />
             </Link>
           </div>

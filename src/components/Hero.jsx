@@ -32,7 +32,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-5xl md:text-7xl font-bold text-center mb-6 tracking-tight"
+          className="text-3xl lg:text-7xl font-bold text-center mb-6 tracking-tight"
         >
           Mum Isolierung
         </motion.h1>
@@ -40,14 +40,14 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-xl md:text-2xl text-center max-w-3xl mb-12 text-gray-200"
+          className="text-lg lg:text-2xl text-center max-w-3xl mb-12 text-gray-200"
         >
           Professionelle Isolierungslösungen für Ihr Zuhause
         </motion.p>
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="bg-white text-black px-10 py-4 rounded-full text-lg font-semibold 
+          className="bg-white text-black px-10 py-4 rounded-full text-base lg:text-lg font-semibold 
                    hover:bg-opacity-90 transition-all duration-300 shadow-lg 
                    hover:shadow-xl transform hover:-translate-y-1"
         >

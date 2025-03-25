@@ -16,11 +16,11 @@ const Information = () => {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          <h2 className="text-2xl lg:text-5xl font-bold text-gray-800 mb-4">
             Experten für Isoliertechnik
           </h2>
           <div className="w-24 h-1 bg-[#acdaf1] mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className=" lg:text-lg text-gray-600 max-w-3xl mx-auto">
             Maßgeschneiderte und effiziente Lösungen für Ihre Anforderungen
           </p>
         </motion.div>
@@ -126,8 +126,8 @@ const Information = () => {
               className={`rounded-xl ${service.gradient} p-6 h-full shadow-sm hover:shadow-md transition-shadow`}
             >
               <div className="text-4xl mb-4">{service.icon}</div>
-              <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
-              <p className="text-gray-700">{service.description}</p>
+              <h3 className="text-lg lg:text-xl font-semibold mb-3">{service.title}</h3>
+              <p className="lg:text-base text-sm text-gray-700">{service.description}</p>
             </motion.div>
           ))}
         </div>
@@ -136,15 +136,15 @@ const Information = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
-          className=" rounded-2xl p-8 md:p-12 shadow-xl"
+          className=" rounded-2xl p-5 md:p-12 shadow-xl"
         >
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-              <h3 className="text-3xl font-bold text-gray-800 mb-4">
+              <h3 className="text-lg lg:text-3xl font-semibold lg:font-bold text-gray-800 mb-4">
                 Unsere Expertise für Ihren Erfolg
               </h3>
               <div className="h-1 w-20 bg-gradient-to-r from-[#eff8fd] via-[#eff8fd] to-[#f9e9e9] mb-6"></div>
-              <p className="text-gray-700 mb-6 leading-relaxed">
+              <p className="text-gray-700 text-sm lg:text-base mb-6 leading-relaxed">
                 Verlassen Sie sich auf unsere jahrelange Erfahrung und unser
                 Engagement, um Ihnen die besten Lösungen für Ihre
                 Isolieranforderungen zu bieten. Mit modernster Technik und
@@ -170,20 +170,20 @@ const Information = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span>{item}</span>
+                    <span className="text-sm lg:text-base text-gray-700">{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="md:w-1/2">
-              <div className="relative rounded-xl overflow-hidden h-80 shadow-lg">
-                <div className="absolute inset-0z-10"></div>
+            <div className="w-full lg:w-1/2">
+              <div className="relative rounded-xl overflow-hidden w-full h-60 lg:h-80 shadow-lg">
+                <div className="absolute inset-10"></div>
                 <img
-                  className="absolute inset-0 w-full h-full object-cover"
+                  className="w-full h-full object-cover"
                   src={informationImage}
                   alt="Professionelle Isolierarbeit"
                 />
-                <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
+                <div className="hidden lg:block absolute bottom-0 left-0 right-0 p-6 z-20">
                   <div className="bg-white/90 backdrop-blur-sm p-4 rounded-lg">
                     <h4 className="font-bold text-gray-800">
                       Professionelle Isolierung

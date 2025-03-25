@@ -30,11 +30,11 @@ const About = () => {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          <h2 className="text-2xl lg:text-4xl md:text-5xl font-bold text-gray-800 mb-4">
             Unser Unternehmen
           </h2>
           <div className="w-24 h-1 bg-[#acdaf1]  mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="lg:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Als inhabergeführtes Unternehmen sind wir stolz auf unser
             engagiertes Team, das unsere Marktposition kontinuierlich stärkt.
           </p>
@@ -85,7 +85,7 @@ const About = () => {
                   />
                 </figure>
                 <article className="d6ecf7 flex-grow p-4 transition-shadow duration-300 shadow-xl md:p-6 rounded-3xl hover:shadow-2xl">
-                  <h2 className="mb-3 text-2xl md:text-3xl font-bold text-gray-800">
+                  <h2 className="mb-3 text-lg md:text-3xl font-semibold lg:font-bold text-gray-800">
                     Unser Unternehmen
                   </h2>
                   <p className="text-sm leading-relaxed text-gray-600 md:text-base">
@@ -110,7 +110,7 @@ const About = () => {
                 ].map((img, index) => (
                   <figure
                     key={index}
-                    className="rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 h-72 transform hover:scale-[1.02]"
+                    className="rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 lg:h-72 transform hover:scale-[1.02]"
                   >
                     <img
                       src={img.src}
@@ -134,11 +134,11 @@ const About = () => {
           viewport={{ once: true }}
           className="mt-10"
         >
-          <div className=" rounded-3xl shadow-xl p-8 md:p-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
+          <div className=" rounded-3xl shadow-xl p-5 md:p-12">
+            <h2 className="text-lg lg:text-3xl font-semibold lg:font-bold text-gray-800 mb-8">
               Unser Unternehmen
             </h2>
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-gray-600 text-sm lg:text-base leading-relaxed">
               Als inhabergeführtes Unternehmen sind wir stolz darauf, seit
               vielen Jahren mit einem engagierten und zuverlässigen Team unsere
               Position im Markt erfolgreich behaupten und kontinuierlich
@@ -162,11 +162,11 @@ const About = () => {
           viewport={{ once: true }}
           className="mt-10"
         >
-          <div className=" rounded-3xl shadow-xl p-8 md:p-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
+          <div className=" rounded-3xl shadow-xl p-5 md:p-12">
+            <h2 className="text-lg lg:text-3xl font-semibold lg:font-bold text-gray-800 mb-8">
               Unsere Lösungen im Bereich Isoliertechnik
             </h2>
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-gray-600 text-sm lg:text-base leading-relaxed">
               Als Experten bieten wir maßgeschneiderte Isolierlösungen, die Ihre
               Energiekosten senken und die Betriebseffizienz steigern. Ob
               Wärmeisolierung, Kälteisolierung, Schallschutz oder Brandschutz –
