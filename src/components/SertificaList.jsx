@@ -81,13 +81,13 @@ const SertificaList = () => {
   ];
 
   return (
-    <div className="container  mx-auto pt-20">
+    <div className="container  mx-auto pt-16 lg:pt-20">
      
       <div className={`w-full ${styles.sliderContainer}`}>
         <Slider {...settings}>
           {certificates.map((certificate) => (
-            <div key={certificate.id} className="p-2 sm:p-4 md:p-6">
-              <div className="p-2 sm:p-4 transition-all duration-500 transform bg-white shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl hover:shadow-[0_8px_30px_rgba(0,0,0,0.25)] ">
+            <div key={certificate.id} className="p-4  lg:p-6">
+              <div className="p-4 sm:p-4 transition-all duration-500 transform bg-white shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl hover:shadow-[0_8px_30px_rgba(0,0,0,0.25)] ">
                 <div className="overflow-hidden rounded-xl ring-1 ring-black/5">
                   <img
                     src={certificate.image}
