@@ -161,7 +161,7 @@ const Navbar = () => {
             </button>
 
             {/* Menu Items */}
-            <div className="space-y-8 text-center w-full pb-20">
+            <div className="space-y-8 text-center w-full">
               <div>
                 <Link
                   to="/"

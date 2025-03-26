@@ -247,7 +247,7 @@ const Datenschutz = () => {
                   Website werden an einen Server von Google übermittelt und dort
                   gespeichert. Server-Standort ist im Regelfall die USA.
                 </p>
-                <h3 className="text-lg font-medium text-[#1a1a1a] mt-4">
+                <h3 className="text-base lg:text-lg font-semibold text-[#1a1a1a] mt-4">
                   IP-Anonymisierung
                 </h3>
                 <p className="text-sm lg:text-base">

@@ -62,7 +62,7 @@ const FOOTER_LINKS = [
     to: "/zertifikate",
     text: "Zertifikate",
     ariaLabel: "Go to certificates page",
-    mobileHidden: false,
+    mobileHidden: true,
   },
 
   {
