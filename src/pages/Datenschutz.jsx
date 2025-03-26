@@ -5,8 +5,8 @@ const Datenschutz = () => {
   return (
     <div>
       <Navbar />
-      <div className="container mx-auto pt-52 px-4">
-        <div className="bg-white rounded-lg shadow-lg p-8 mx-auto">
+      <div className="container mx-auto lg:pt-52 pt-32 px-4">
+        <div className="bg-white rounded-lg shadow-lg p-2 lg:p-8 mx-auto">
           <h1 className="text-xl lg:text-4xl font-bold mb-8 text-[#1a1a1a]">
             Datenschutzerklärung
           </h1>
@@ -16,7 +16,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Angaben gem. § 5 TMG
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg">
                 <p className="text-sm lg:text-base text-gray-700">
                   MuM-Isolierung GmbH
                 </p>
@@ -34,8 +34,8 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Allgemeiner Hinweis und Pflichtinformationen
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700 space-y-4">
-                <h3 className="text-lg font-medium text-[#1a1a1a]">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700 space-y-4">
+                <h3 className="text-base lg:text-lg font-semibold text-[#1a1a1a]">
                   Benennung der verantwortlichen Stelle
                 </h3>
                 <p className="text-sm lg:text-base">
@@ -63,7 +63,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Widerruf Ihrer Einwilligung zur Datenverarbeitung
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Nur mit Ihrer ausdrücklichen Einwilligung sind einige Vorgänge
                   der Datenverarbeitung möglich. Ein Widerruf Ihrer bereits
@@ -80,7 +80,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Als Betroffener steht Ihnen im Falle eines
                   datenschutzrechtlichen Verstoßes ein Beschwerderecht bei der
@@ -92,7 +92,7 @@ const Datenschutz = () => {
                   Kontaktdaten bereit:{" "}
                   <a
                     href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-blue-300"
                   >
                     https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html
                   </a>
@@ -106,7 +106,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Recht auf Datenübertragbarkeit
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Ihnen steht das Recht zu, Daten, die wir auf Grundlage Ihrer
                   Einwilligung oder in Erfüllung eines Vertrags automatisiert
@@ -124,7 +124,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Recht auf Auskunft, Berichtigung, Sperrung, Löschung
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Sie haben jederzeit im Rahmen der geltenden gesetzlichen
                   Bestimmungen das Recht auf unentgeltliche Auskunft über Ihre
@@ -143,7 +143,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 SSL- bzw. TLS-Verschlüsselung
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Aus Sicherheitsgründen und zum Schutz der Übertragung
                   vertraulicher Inhalte, die Sie an uns als Seitenbetreiber
@@ -161,7 +161,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Server-Log-Dateien
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   In Server-Log-Dateien erhebt und speichert der Provider der
                   Website automatisch Informationen, die Ihr Browser automatisch
@@ -191,7 +191,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Cookies
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Unsere Website verwendet Cookies. Das sind kleine Textdateien,
                   die Ihr Webbrowser auf Ihrem Endgerät speichert. Cookies
@@ -232,7 +232,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Google Analytics
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Unsere Website verwendet Funktionen des Webanalysedienstes
                   Google Analytics. Anbieter des Webanalysedienstes ist die
@@ -267,7 +267,7 @@ const Datenschutz = () => {
                 Datenübermittlung bei Vertragsschluss für Warenkauf und
                 Warenversand
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Personenbezogene Daten werden an Dritte nur übermittelt,
                   sofern eine Notwendigkeit im Rahmen der Vertragsabwicklung
@@ -289,7 +289,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Kontaktformular
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Per Kontaktformular übermittelte Daten werden einschließlich
                   Ihrer Kontaktdaten gespeichert, um Ihre Anfrage bearbeiten zu
@@ -322,7 +322,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Newsletter-Daten
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Zum Versenden unseres Newsletters benötigen wir von Ihnen eine
                   E-Mail-Adresse. Eine Verifizierung der angegebenen
@@ -355,7 +355,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 YouTube
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Für Integration und Darstellung von Videoinhalten nutzt unsere
                   Website Plugins von YouTube. Anbieter des Videoportals ist die
@@ -384,7 +384,7 @@ const Datenschutz = () => {
                   Datenschutzerklärung von YouTube unter:{" "}
                   <a
                     href="https://www.google.de/intl/de/policies/privacy"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-blue-300 "
                   >
                     https://www.google.de/intl/de/policies/privacy
                   </a>
@@ -398,7 +398,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 PayPal
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Unsere Website ermöglicht bald die Bezahlung via PayPal.
                   Anbieter des Bezahldienstes ist die PayPal (Europe) S.à.r.l.
@@ -424,7 +424,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Sofortüberweisung
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Unsere Website ermöglicht bald die Bezahlung via
                   "Sofortüberweisung." Anbieter des Bezahldienstes ist die
@@ -469,14 +469,14 @@ const Datenschutz = () => {
                   unter:{" "}
                   <a
                     href="https://www.sofort.de/datenschutz.html"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-blue-300 "
                   >
                     https://www.sofort.de/datenschutz.html
                   </a>{" "}
                   und{" "}
                   <a
                     href="https://www.klarna.com/sofort/"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-blue-300 "
                   >
                     https://www.klarna.com/sofort/
                   </a>
@@ -490,7 +490,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Google AdSense
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Unsere Website verwendet Google AdSense. Anbieter ist die
                   Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA
@@ -526,7 +526,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Google AdWords und Google Conversion-Tracking
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Unsere Website verwendet Google AdWords. Anbieter ist die
                   Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA
@@ -567,7 +567,7 @@ const Datenschutz = () => {
                   finden Sie in den Datenschutzbestimmungen von Google:{" "}
                   <a
                     href="https://www.google.de/policies/privacy/"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-blue-300"
                   >
                     https://www.google.de/policies/privacy/
                   </a>
@@ -581,7 +581,7 @@ const Datenschutz = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Google Web Fonts
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg prose max-w-none text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg prose max-w-none text-gray-700">
                 <p className="text-sm lg:text-base">
                   Unsere Website verwendet Web Fonts von Google. Anbieter ist
                   die Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA
@@ -613,7 +613,7 @@ const Datenschutz = () => {
                   Einzelheiten über Google Web Fonts finden Sie unter:{" "}
                   <a
                     href="https://www.google.com/fonts#AboutPlace:about"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-blue-300"
                   >
                     https://www.google.com/fonts#AboutPlace:about
                   </a>{" "}
@@ -621,7 +621,7 @@ const Datenschutz = () => {
                   Google:{" "}
                   <a
                     href="https://policies.google.com/privacy/partners?hl=de"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-blue-300"
                   >
                     https://policies.google.com/privacy/partners?hl=de
                   </a>
