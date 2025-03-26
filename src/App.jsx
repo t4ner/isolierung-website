@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="/kontakt" element={<Contact />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -191,7 +191,7 @@ const ContactForm = () => {
               <div className="flex pt-5 lg:pt-0 items-start transform transition-all duration-300 hover:translate-x-2 group">
                 <div className="p-3 bg-[#eff8fd] rounded-xl shadow-md shadow-[#02C5DF]/20 group-hover:scale-110 transition-transform">
                   <svg
-                    className="w-6 h-6 text-black"
+                    className="w-5 h-5 lg:w-6 lg:h-6 text-black"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -224,7 +224,7 @@ const ContactForm = () => {
               <div className="flex items-start transform transition-all duration-300 hover:translate-x-2 group">
                 <div className="p-3 bg-[#eff8fd] shadow-md shadow-[#02C5DF]/20 rounded-xl group-hover:scale-110 transition-transform">
                   <svg
-                    className="w-6 h-6 text-black"
+                      className="w-5 h-5 lg:w-6 lg:h-6 text-black"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -251,7 +251,7 @@ const ContactForm = () => {
               <div className="flex items-start transform transition-all duration-300 hover:translate-x-2 group">
                 <div className="p-3 bg-[#eff8fd] shadow-md shadow-[#02C5DF]/20 rounded-xl group-hover:scale-110 transition-transform">
                   <svg
-                    className="w-6 h-6 text-black"
+                    className="w-5 h-5 lg:w-6 lg:h-6 text-black"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
