@@ -176,7 +176,6 @@ const ContactForm = () => {
         >
           <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden transform transition-all duration-300 hover:scale-[1.02] w-full flex flex-col">
             <div className="h-[400px] w-full relative group">
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20 group-hover:opacity-0 transition-opacity duration-300"></div>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.0098001482174!2d8.503392576818639!3d49.45903347141995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797c932be8f807b%3A0xd7976def5c0c2bae!2sSigmund-Schuckert-Stra%C3%9Fe%2017%2C%2068199%20Mannheim%2C%20Germany!5e1!3m2!1sen!2str!4v1742213947312!5m2!1sen!2str"
                 className="w-full h-full"
@@ -224,7 +223,7 @@ const ContactForm = () => {
               <div className="flex items-start transform transition-all duration-300 hover:translate-x-2 group">
                 <div className="p-3 bg-[#eff8fd] shadow-md shadow-[#02C5DF]/20 rounded-xl group-hover:scale-110 transition-transform">
                   <svg
-                      className="w-5 h-5 lg:w-6 lg:h-6 text-black"
+                    className="w-5 h-5 lg:w-6 lg:h-6 text-black"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
