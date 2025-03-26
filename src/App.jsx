@@ -7,6 +7,8 @@ import Services from "./pages/Services";
 import Sertificas from "./pages/Sertificas";
 import Contact from "./pages/Contact";
 import ScrollToTop from "./components/ScrollToTop";
+import Impressum from "./pages/Impressum";
+import Datenschutz from "./pages/Datenschutz";
 function App() {
   return (
     <div className="overflow-x-hidden">
@@ -16,6 +18,8 @@ function App() {
         <Route path="/leistungen" element={<Services />} />
         <Route path="/zertifikate" element={<Sertificas />} />
         <Route path="/kontakt" element={<Contact />} />
+        <Route path="/impressum" element={<Impressum />} />
+        <Route path="/datenschutz" element={<Datenschutz />} />
       </Routes>
       <Footer />
     </div>
