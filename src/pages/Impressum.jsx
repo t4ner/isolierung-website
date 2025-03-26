@@ -174,11 +174,11 @@ const Impressum = () => {
           </div>
 
           <div className="mt-12 pt-8 border-t border-gray-200">
-            <p className="text-sm text-gray-600 text-center">
+            <p className="text-sm lg:text-base text-gray-600 text-center">
               Dieses Impressum wurde freundlicherweise von jurarat.de zur
               Verfügung gestellt.
             </p>
-            <p className="text-sm text-gray-600 text-center mt-2">
+            <p className="text-sm lg:text-base text-gray-600 text-center mt-2">
               Copyright © 2025 MuM-Isolierung GmbH
             </p>
           </div>

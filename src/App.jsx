@@ -19,7 +19,7 @@ function App() {
         <Route path="/zertifikate" element={<Sertificas />} />
         <Route path="/kontakt" element={<Contact />} />
         <Route path="/impressum" element={<Impressum />} />
-        <Route path="/datenschutz" element={<Datenschutz />} />
+        <Route path="/datenschutzerklarung" element={<Datenschutz />} />
       </Routes>
       <Footer />
     </div>
