@@ -4,8 +4,8 @@ const Impressum = () => {
   return (
     <div>
       <Navbar />
-      <div className="container mx-auto pt-52 px-4">
-        <div className="bg-white rounded-lg shadow-lg p-8 mx-auto">
+      <div className="container mx-auto lg:pt-52 pt-32 px-4">
+        <div className="bg-white rounded-lg shadow-lg p-2 lg:p-8 mx-auto">
           <h1 className="text-xl lg:text-4xl font-bold mb-8 text-[#1a1a1a]">
             Impressum
           </h1>
@@ -14,9 +14,11 @@ const Impressum = () => {
               <h2 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Angaben gem. § 5 TMG
               </h2>
-              <div className="bg-[#eff8fd] p-6 rounded-lg">
-                <p className="text-gray-700">Inh. Merzhan Ahmed</p>
-                <p className="text-gray-700">
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg">
+                <p className="text-sm lg:text-base text-gray-700">
+                  Inh. Merzhan Ahmed
+                </p>
+                <p className="text-sm lg:text-base text-gray-700">
                   Adresse: Sigmund-Schukert-Straße 17, 68199 Mannheim
                 </p>
               </div>
@@ -26,9 +28,13 @@ const Impressum = () => {
               <h3 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Kontaktaufnahme
               </h3>
-              <div className="bg-[#eff8fd] p-6 rounded-lg">
-                <p className="text-gray-700">Telefon: +49 (0)621 – 83268830</p>
-                <p className="text-gray-700">E-Mail: info@mum-isolierung.de</p>
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg">
+                <p className="text-sm lg:text-base text-gray-700">
+                  Telefon: +49 (0)621 – 83268830
+                </p>
+                <p className="text-sm lg:text-base text-gray-700">
+                  E-Mail: info@mum-isolierung.de
+                </p>
               </div>
             </section>
 
@@ -36,8 +42,10 @@ const Impressum = () => {
               <h3 className="text-base lg:text-xl font-semibold mb-4 text-[#1a1a1a]">
                 Umsatzsteuernummer ID
               </h3>
-              <div className="bg-[#eff8fd] p-6 rounded-lg">
-                <p className="text-gray-700">Steuernummer: 37009/40945</p>
+              <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg">
+                <p className="text-sm lg:text-base text-gray-700">
+                  Steuernummer: 37009/40945
+                </p>
               </div>
             </section>
 
@@ -51,8 +59,8 @@ const Impressum = () => {
                   <h3 className="text-base lg:text-xl font-semibold mb-3 text-[#1a1a1a]">
                     Haftung für Inhalte
                   </h3>
-                  <div className="bg-[#eff8fd] p-6 rounded-lg space-y-4">
-                    <p className="text-gray-700 leading-relaxed">
+                  <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg space-y-4">
+                    <p className="text-sm lg:text-base text-gray-700 leading-relaxed">
                       Alle Inhalte unseres Internetauftritts wurden mit größter
                       Sorgfalt und nach bestem Gewissen erstellt. Für die
                       Richtigkeit, Vollständigkeit und Aktualität der Inhalte
@@ -67,7 +75,7 @@ const Impressum = () => {
                       Sperrung der Nutzung von Informationen nach den
                       allgemeinen Gesetzen bleiben hiervon unberührt.
                     </p>
-                    <p className="text-gray-700 leading-relaxed">
+                    <p className="text-sm lg:text-base text-gray-700 leading-relaxed">
                       Eine diesbezügliche Haftung ist jedoch erst ab dem
                       Zeitpunkt der Kenntniserlangung einer konkreten
                       Rechtsverletzung möglich. Bei Bekanntwerden von den o.g.
@@ -81,8 +89,8 @@ const Impressum = () => {
                   <h3 className="text-base lg:text-xl font-semibold mb-3 text-[#1a1a1a]">
                     Haftungsbeschränkung für externe Links
                   </h3>
-                  <div className="bg-[#eff8fd] p-6 rounded-lg space-y-4">
-                    <p className="text-gray-700 leading-relaxed">
+                  <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg space-y-4">
+                    <p className="text-sm lg:text-base text-gray-700 leading-relaxed">
                       Unsere Webseite enthält Links auf externe Webseiten
                       Dritter. Auf die Inhalte dieser direkt oder indirekt
                       verlinkten Webseiten haben wir keinen Einfluss. Daher
@@ -91,7 +99,7 @@ const Impressum = () => {
                       externen Links sind die jeweilige Anbieter oder Betreiber
                       (Urheber) der Seiten verantwortlich.
                     </p>
-                    <p className="text-gray-700 leading-relaxed">
+                    <p className="text-sm lg:text-base text-gray-700 leading-relaxed">
                       Die externen Links wurden zum Zeitpunkt der Linksetzung
                       auf eventuelle Rechtsverstöße überprüft und waren im
                       Zeitpunkt der Linksetzung frei von rechtswidrigen
@@ -105,7 +113,7 @@ const Impressum = () => {
                       es uns technisch möglich und zumutbar wäre, die Nutzung im
                       Falle rechtswidriger Inhalte zu verhindern.
                     </p>
-                    <p className="text-gray-700 leading-relaxed">
+                    <p className="text-sm lg:text-base text-gray-700 leading-relaxed">
                       Diese Haftungsausschlusserklärung gilt auch innerhalb des
                       eigenen Internetauftrittes "Name Ihrer Domain" gesetzten
                       Links und Verweise von Fragestellern, Blogeinträgern,
@@ -117,7 +125,7 @@ const Impressum = () => {
                       nicht derjenige, der über Links auf die jeweilige
                       Veröffentlichung lediglich verweist.
                     </p>
-                    <p className="text-gray-700 leading-relaxed">
+                    <p className="text-sm lg:text-base text-gray-700 leading-relaxed">
                       Werden uns Rechtsverletzungen bekannt, werden die externen
                       Links durch uns unverzüglich entfernt.
                     </p>
@@ -128,8 +136,8 @@ const Impressum = () => {
                   <h3 className="text-base lg:text-xl font-semibold mb-3 text-[#1a1a1a]">
                     Urheberrecht
                   </h3>
-                  <div className="bg-[#eff8fd] p-6 rounded-lg space-y-4">
-                    <p className="text-gray-700 leading-relaxed">
+                  <div className="bg-[#eff8fd] p-2 lg:p-6 rounded-lg space-y-4">
+                    <p className="text-sm lg:text-base text-gray-700 leading-relaxed">
                       Die auf unserer Webseite veröffentlichen Inhalte und Werke
                       unterliegen dem deutschen Urheberrecht (
                       <a
@@ -156,7 +164,7 @@ const Impressum = () => {
                       </a>
                       ).
                     </p>
-                    <p className="text-gray-700 leading-relaxed">
+                    <p className="text-sm lg:text-base text-gray-700 leading-relaxed">
                       Downloads und Kopien dieser Seite sind nur für den
                       privaten und nicht kommerziellen Gebrauch erlaubt. Sind
                       die Inhalte auf unserer Webseite nicht von uns erstellt
