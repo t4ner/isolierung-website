@@ -187,7 +187,7 @@ const ContactForm = () => {
               ></iframe>
             </div>
 
-            <div className="p-4 lg:p-8 space-y-8 bg-[#eff8fd] flex-grow">
+            <div className="p-4 lg:p-8 space-y-8 flex-grow">
               <div className="flex pt-5 lg:pt-0 items-start transform transition-all duration-300 hover:translate-x-2 group">
                 <div className="p-3 bg-[#eff8fd] rounded-xl shadow-md shadow-[#02C5DF]/20 group-hover:scale-110 transition-transform">
                   <svg
