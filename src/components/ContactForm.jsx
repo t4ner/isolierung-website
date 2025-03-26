@@ -30,7 +30,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="relative mt-20 mb-24 px-4 md:px-6 container mx-auto">
+    <div className="relative mt-10 lg:mt-20 mb-10 lg:mb-24 px-4 md:px-6 container mx-auto">
       <ToastContainer position="bottom-right" />
 
       <motion.div
@@ -38,22 +38,22 @@ const ContactForm = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-150px" }}
         transition={{ duration: 0.6 }}
-        className="mb-20 text-center relative"
+        className="mb-10 lg:mb-20 text-center relative"
       >
         <span className="inline-block px-4 py-2 rounded-full bg-[#acdaf1] text-white text-sm font-medium mb-4">
           Kontakt
         </span>
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+        <h2 className="text-2xl md:text-5xl font-bold text-gray-800 mb-4">
           Haben Sie Fragen?
         </h2>
         <div className="w-24 h-1 bg-[#acdaf1] mx-auto mb-6"></div>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-base lg:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Schreiben Sie uns gerne eine Nachricht oder rufen Sie uns an! Wir
           freuen uns darauf, Ihnen weiterzuhelfen.
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
         {/* Contact Form */}
         <motion.div
           initial={{ opacity: 0, x: -100 }}
@@ -62,18 +62,18 @@ const ContactForm = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="order-2 lg:order-1 flex"
         >
-          <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl p-8 transform transition-all duration-300 hover:scale-[1.02] w-full flex flex-col">
+          <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl p-4 lg:p-8 transform transition-all duration-300 hover:scale-[1.02] w-full flex flex-col">
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="flex flex-col flex-grow space-y-8 pt-10"
+              className="flex flex-col flex-grow space-y-8 lg:pt-10"
             >
               <div className="flex-grow space-y-8">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div className="group">
                     <label
                       htmlFor="user_name"
-                      className="block text-sm font-semibold text-gray-700 mb-2  "
+                      className="block text-sm lg:text-base font-medium lg:font-semibold text-gray-700 mb-2  "
                     >
                       Name
                     </label>
@@ -82,7 +82,7 @@ const ContactForm = () => {
                       type="text"
                       required
                       name="user_name"
-                      className="w-full px-4 py-3 bg-white/50 backdrop-blur-sm border-2 border-gray-200 rounded-xl text-gray-800 focus:outline-none"
+                      className="w-full px-4 py-3 bg-white/50 backdrop-blur-sm border-2 border-gray-200 rounded-xl text-gray-800 focus:outline-none placeholder:text-sm lg:placeholder:text-base"
                       placeholder="Ihr Name"
                     />
                   </div>
@@ -90,7 +90,7 @@ const ContactForm = () => {
                   <div className="group">
                     <label
                       htmlFor="user_email"
-                      className="block text-sm font-semibold text-gray-700 mb-2"
+                      className="block text-sm lg:text-base font-medium lg:font-semibold text-gray-700 mb-2"
                     >
                       E-Mail
                     </label>
@@ -99,7 +99,7 @@ const ContactForm = () => {
                       type="email"
                       required
                       name="user_email"
-                      className="w-full px-4 py-3 bg-white/50 backdrop-blur-sm border-2 border-gray-200 rounded-xl text-gray-800 focus:outline-none"
+                      className="w-full px-4 py-3 bg-white/50 backdrop-blur-sm border-2 border-gray-200 rounded-xl text-gray-800 focus:outline-none placeholder:text-sm lg:placeholder:text-base"
                       placeholder="ihre@email.de"
                     />
                   </div>
@@ -108,7 +108,7 @@ const ContactForm = () => {
                 <div className="group">
                   <label
                     htmlFor="user_telephone"
-                    className="block text-sm font-semibold text-gray-700 mb-2"
+                    className="block text-sm lg:text-base font-medium lg:font-semibold text-gray-700 mb-2"
                   >
                     Telefonnummer
                   </label>
@@ -117,7 +117,7 @@ const ContactForm = () => {
                     type="text"
                     required
                     name="user_telephone"
-                    className="w-full px-4 py-3 bg-white/50 backdrop-blur-sm border-2 border-gray-200 rounded-xl text-gray-800 focus:outline-none"
+                    className="w-full px-4 py-3 bg-white/50 backdrop-blur-sm border-2 border-gray-200 rounded-xl text-gray-800 focus:outline-none placeholder:text-sm lg:placeholder:text-base"
                     placeholder="+49 123 456789"
                   />
                 </div>
@@ -125,7 +125,7 @@ const ContactForm = () => {
                 <div className="group flex-grow">
                   <label
                     htmlFor="message"
-                    className="block text-sm font-semibold text-gray-700 mb-2 "
+                    className="block text-sm lg:text-base font-medium lg:font-semibold text-gray-700 mb-2 "
                   >
                     Nachricht
                   </label>
@@ -133,7 +133,7 @@ const ContactForm = () => {
                     id="message"
                     required
                     name="message"
-                    className="w-full px-4 py-3 bg-white/50 backdrop-blur-sm border-2 border-gray-200 rounded-xl text-gray-800 focus:outline-none resize-none flex-grow"
+                    className="w-full px-4 py-3 bg-white/50 backdrop-blur-sm border-2 border-gray-200 rounded-xl text-gray-800 focus:outline-none resize-none flex-grow placeholder:text-sm lg:placeholder:text-base"
                     placeholder="Ihre Nachricht an uns..."
                     style={{ minHeight: "200px" }}
                   ></textarea>
@@ -143,7 +143,7 @@ const ContactForm = () => {
               <div>
                 <button
                   type="submit"
-                  className="group ml-auto w-full sm:w-auto px-8 py-4 bg-[#eff8fd]  font-medium rounded-xl transition-all duration-300 transform hover:scale-105  flex items-center justify-center space-x-2 hover:translate-y-[-1px]"
+                  className="group ml-auto w-full sm:w-auto px-8 py-4 bg-[#eff8fd] text-sm lg:text-base  font-medium rounded-xl transition-all duration-300 transform hover:scale-105  flex items-center justify-center space-x-2 hover:translate-y-[-1px]"
                 >
                   <span>Nachricht senden</span>
                   <svg
@@ -187,8 +187,8 @@ const ContactForm = () => {
               ></iframe>
             </div>
 
-            <div className="p-8 space-y-8 bg-gradient-to-br from-white/80 to-green-50/80 flex-grow">
-              <div className="flex items-start transform transition-all duration-300 hover:translate-x-2 group">
+            <div className="p-4 lg:p-8 space-y-8 bg-gradient-to-br from-white/80 to-green-50/80 flex-grow">
+              <div className="flex pt-5 lg:pt-0 items-start transform transition-all duration-300 hover:translate-x-2 group">
                 <div className="p-3 bg-[#eff8fd] rounded-xl group-hover:scale-110 transition-transform">
                   <svg
                     className="w-6 h-6 text-black"
@@ -212,7 +212,7 @@ const ContactForm = () => {
                   </svg>
                 </div>
                 <div className="ml-6">
-                  <h4 className=" font-semibold text-gray-800  transition-colors">
+                  <h4 className="text-sm lg:text-base font-medium lg:font-semibold text-gray-800  transition-colors">
                     Adresse
                   </h4>
                   <p className="text-sm text-gray-600 mt-2">
@@ -239,7 +239,7 @@ const ContactForm = () => {
                   </svg>
                 </div>
                 <div className="ml-6">
-                  <h4 className="font-semibold text-gray-800  transition-colors">
+                  <h4 className="text-sm lg:text-base font-medium lg:font-semibold text-gray-800  transition-colors">
                     E-Mail
                   </h4>
                   <p className="text-gray-600 text-sm mt-2">
@@ -266,7 +266,7 @@ const ContactForm = () => {
                   </svg>
                 </div>
                 <div className="ml-6">
-                  <h4 className="font-semibold text-gray-800  transition-colors">
+                  <h4 className="text-sm lg:text-base font-medium lg:font-semibold text-gray-800  transition-colors">
                     Telefon
                   </h4>
                   <p className="text-gray-600 text-sm mt-2">
